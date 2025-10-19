@@ -1,6 +1,6 @@
 {
   "name": "@digicroz/react-floating-whatsapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "🚀 Fully customizable React WhatsApp floating button component with TypeScript support, dark mode, notifications, and seamless WhatsApp integration for modern web applications",
   "author": {
