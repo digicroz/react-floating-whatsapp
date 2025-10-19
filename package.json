@@ -26,7 +26,7 @@
     "node": ">=16"
   },
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "npx rimraf dist",
     "build": "rollup -c --exports auto",
     "log": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
     "release:patch": "npm version patch",
