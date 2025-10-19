@@ -30,6 +30,7 @@
     "build": "rollup -c --exports auto",
     "log": "auto-changelog -p --template keepachangelog && git add CHANGELOG.md",
     "release:patch": "npm version patch",
+    "prepublishOnly": "npm run clean && npm run build",
     "postversion": "git push && git push --tags && npm publish"
   },
   "peerDependencies": {
